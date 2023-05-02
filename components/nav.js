@@ -3,19 +3,19 @@ import Link from 'next/link'
 export default function Nav() {
     return (
         <nav>
-            <ul>
+            <ul className={'flex gap-8'}>
                 <li>
-                    <Link href="/">
+                    <Link href="/" className={'hover:text-slate-500'}>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link href="/about">
+                    <Link href="/about" className={'hover:text-slate-500'}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link href="/blog">
+                    <Link href="/blog" className={'hover:text-slate-500'}>
                         Blog
                     </Link>
                 </li>
