@@ -4,9 +4,9 @@ import Nav from 'components/nav'
 
 export default function Header() {
     return (
-        <header>
+        <header className={'bg-gradient-to-bl from-slate-200 to-white pb-6'}>
             <Container large>
-                <div className={'flex justify-between items-center'}>
+                <div className={'flex justify-between items-center pt-6 pt-6'}>
                     <Logo />    
                     <Nav />
                 </div>

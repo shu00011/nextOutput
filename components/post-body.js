@@ -2,7 +2,7 @@
 
 export default function PostBody({ children }) {
     return (
-        <div className={'mt-6 leading-7'}>
+        <div className={'mt-6 leading-7 text-slate-800'}>
             { children }
         </div>
     )

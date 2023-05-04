@@ -9,7 +9,7 @@ export default function Home() {
       <Meta />
       <Hero 
         title='shu00011'
-        subtitle='つくったもの置き場'
+        subtitle='works'
         imageOn
       />
     </Container>

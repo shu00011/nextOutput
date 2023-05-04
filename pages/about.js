@@ -12,7 +12,13 @@ export default function About() {
 
   return (
     <Container>
-      <Meta pageTitle='About' pageDesc='About development activities' />
+      <Meta
+        pageTitle = 'About'
+        pageDesc = 'About development activities'
+        pageImg = { eyecatch.src }
+        pageImgW = { eyecatch.width }
+        pageImgH = { eyecatch.height }
+      />
       <Hero 
           title='About'
           subtitle='About shu00011'
@@ -31,11 +37,11 @@ export default function About() {
         <TwoColumnMain>
           <PostBody>
             <p>HN：shu00011/小石こは</p>
-            <p>経歴：2020年に岡山大学電子計算機研究会に所属しプログラミングを始める。</p>
+            <p>経歴：大学時代は岡山大学電子計算機研究会に所属。</p>
             <p>2023年に岡山大学工学部情報系学科を卒業後、現在とあるSIerのSEとして研修中。</p>
             <p>資格：基本情報技術者（2022年10月取得）</p>
             <p>技術：Git, React, Next, Flutter, Python</p>
-            </PostBody>
+          </PostBody>
         </TwoColumnMain>
         <TwoColumnSidebar>
           <Contact />
