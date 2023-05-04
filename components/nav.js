@@ -1,5 +1,12 @@
 import Link from 'next/link'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {
+//     faHouse,
+//     faUser,
+//     faCode
+// } from '@fortawesome/fontawesome-svg-icons'
+
 export default function Nav() {
     return (
         <nav>

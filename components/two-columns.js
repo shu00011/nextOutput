@@ -6,3 +6,20 @@ export function TwoColumn({ children }) {
         </div>
     )
 }
+
+// md:が効かない
+export function TwoColumnMain({ children }) {
+    return (
+        <div className={''}>
+            { children }
+        </div>
+    )
+}
+
+export function TwoColumnSidebar( { children }) {
+    return (
+        <div className={'text-right'}>
+            { children }
+        </div>
+    )
+}

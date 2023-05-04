@@ -65,3 +65,7 @@ h2 {
 h3 {
   font-size: var(--heading3);
 }
+
+span > img {
+  transition: 0.2s;
+}
