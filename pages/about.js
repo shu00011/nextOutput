@@ -1,8 +1,9 @@
 import Contact from 'components/contact'
 import Container from 'components/container'
-import eyecatch from 'images/spring.jpg'
+import eyecatch from 'images/icon.png'
 import Hero from 'components/hero'
 import Image from 'next/image'
+import Meta from 'components/meta'
 import PostBody from 'components/post-body'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-columns'
 
@@ -11,16 +12,17 @@ export default function About() {
 
   return (
     <Container>
+      <Meta pageTitle='About' pageDesc='About development activities' />
       <Hero 
-          title="About"
-          subtitle="About shu00011"
+          title='About'
+          subtitle='About shu00011'
       />
-      <figure>
+      <figure className={'flex justify-center'}>
         <Image
           src = { eyecatch }
           alt = ''
           responsive
-          sizes = '(min-width: 1152px) 1152px, 100vw'
+          sizes = '(min-width: 96px) 96px, 100vw'
           priority
           placeholder = 'blur'
         />

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import tokyo from 'images/tokyo.jpg'
+import spring from 'images/spring.jpg'
 
 // TODO: レスポンスデザインにする。
 
@@ -13,7 +13,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
             {imageOn && (
                 <figure className={'w-full justify-center flex'}>
                     <Image
-                        src = { tokyo }
+                        src = { spring }
                         alt = ''
                         responsive
                         sizes = '(min-width: 1152px) 576px, (min-width: 768px) 50vw, 100vw'

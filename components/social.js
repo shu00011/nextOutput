@@ -3,7 +3,10 @@ import {
     faInstagram,
     faGithub
 } from '@fortawesome/free-brands-svg-icons'
-import { faLaptop } from '@fortawesome/free-solid-svg-icons'
+import { 
+    faLaptop,
+    faZ
+} from '@fortawesome/free-solid-svg-icons'
 
 export default function Social({onFooter=false}) {
     return (
@@ -16,6 +19,12 @@ export default function Social({onFooter=false}) {
                 </a>
             </li>
         }    
+            <li>
+                <a href='https://zenn.dev/shu00011' target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon icon = { faZ } />
+                    <span className='sr-only'>Zenn</span>
+                </a>
+            </li>
             <li>
                 <a href='https://www.instagram.com/shu_0u/' target='_blank' rel='noopener noreferrer'>
                     <FontAwesomeIcon icon = { faInstagram } />
