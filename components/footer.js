@@ -1,5 +1,6 @@
 import Container from 'components/container'
 import Logo from 'components/logo'
+import Social from 'components/social'
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <Container>
                 <div className={'gap-8 flex flex-col items-center text-center text-left'}>
                     <Logo />
-                    [ソーシャル]
+                    <Social onFooter />
                 </div>
             </Container>
         </footer>

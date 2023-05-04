@@ -28,7 +28,7 @@ export default function About() {
       <TwoColumn>
         <TwoColumnMain>
           <PostBody>
-            <p>HN：shu00011</p>
+            <p>HN：shu00011/小石こは</p>
             <p>経歴：2020年に岡山大学電子計算機研究会に所属しプログラミングを始める。</p>
             <p>2023年に岡山大学工学部情報系学科を卒業後、現在とあるSIerのSEとして研修中。</p>
             <p>資格：基本情報技術者（2022年10月取得）</p>

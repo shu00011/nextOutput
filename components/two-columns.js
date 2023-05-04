@@ -16,9 +16,10 @@ export function TwoColumnMain({ children }) {
     )
 }
 
+// text-rightのところcenterに変更。
 export function TwoColumnSidebar( { children }) {
     return (
-        <div className={'text-right'}>
+        <div className={'text-center'}>
             { children }
         </div>
     )
