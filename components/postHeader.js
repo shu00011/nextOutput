@@ -6,7 +6,7 @@ export default function PostHeader({ title, subtitle, publish = ''}) {
     return (
         <div className={'pb-6 pt-4'}>
             <p className={'text-sm text-slate-800'}>{ subtitle }</p>
-            <h1 className={'mt-1 text-slate-800'}>{ title }</h1>
+            <h1 className={'mt-1 mb-2 text-slate-800 text-4xl'}>{ title }</h1>
             {publish && (
                 <div className={'flex gap-2 text-slate-700 text-xs'}>
                     <FontAwesomeIcon icon={ faClock } size='lg' />
