@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## microCMS記述ルール
 - 見出しは「見出し2+太字」
 - リンクの色はライトブルーの1番濃いもの
+- 改行は2行
