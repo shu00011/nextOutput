@@ -1,9 +1,9 @@
 //** @type {import('next-sitemap').IConfig} */
 const config = {
-    siteUrl: '',
+    siteUrl: 'https://shu00011.vercel.app/',
     exclude: ['/server-sitemap.xml'],
     robotsTxtOptions: {
-        additionalSitemaps:[''],
+        additionalSitemaps:['https://shu00011.vercel.app/server-sitemap.xml'],
     },
 }
 
