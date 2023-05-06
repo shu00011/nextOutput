@@ -26,6 +26,10 @@ export async function getStaticProps() {
   const posts = await getAllPosts()
   const allCats = await getAllCategories()
 
+  // For Algolia. import getAllPostsForAlgolia
+  // const algolia = await getAllPostsForAlgolia()
+  // console.log(algolia)
+
   for(const post of posts) {
     if(!post.hasOwnProperty('eyecatch')) {
       post.eyecatch = eyecatchLocal
