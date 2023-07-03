@@ -9,7 +9,7 @@ import {
 
 export default function Nav() {
     return (
-        <nav>
+        <nav className={'mr-[5%]'}>
             <ul className={'flex gap-8 text-slate-800'}>
                 <li>
                     <Link href="/" className={'hover:text-slate-500'}>

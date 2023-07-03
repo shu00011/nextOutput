@@ -9,8 +9,10 @@ import { getPlaiceholder } from 'plaiceholder'
 export default function Category({ name, posts }) {
     return (
         <Container>
-            <Meta pageTitle={name} pageDesc={`${name} に関する記事`} />
-            <PostHeader title={name} subtitle='Blog Category' />
+            <div className={'ml-[10%]'}>
+                <Meta pageTitle={name} pageDesc={`${name} に関する記事`} />
+                <PostHeader title={name} subtitle='Blog Category' />
+            </div>
             <Posts posts={posts} />
         </Container>
     )

@@ -35,7 +35,7 @@ export default function Post({
             <article>
                 <PostHeader title={ title } subtitle='Blog Article' publish={ publish } />
 
-                <figure className={'relative aspect-video'}>
+                <figure className={'relative aspect-video max-w-[80%] ml-[10%]'}>
                     <Image
                         key={eyecatch.url}
                         src={ eyecatch.url }

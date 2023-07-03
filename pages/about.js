@@ -23,7 +23,7 @@ export default function About() {
           title='About'
           subtitle='About shu00011'
       />
-      <figure className={'flex justify-center'}>
+      <figure className={'flex justify-center max-w-[80%] ml-[10%]'}>
         <Image
           src = { eyecatch }
           alt = ''
@@ -34,16 +34,11 @@ export default function About() {
         />
       </figure>
       <TwoColumn>
-        <TwoColumnMain>
-          <PostBody>
-            <p>HN：shu00011/小石こは</p>
-            <p>経歴：大学時代は岡山大学電子計算機研究会に所属。</p>
-            <p>　　　2023年に岡山大学工学部情報系学科を卒業。</p>
-            <p>　　　現在はとあるSIerのSEをしている。</p>
-            <p>資格：基本情報技術者（2022年10月取得）</p>
-            <p>技術：Git, React, Next, Flutter, Python</p>
-          </PostBody>
-        </TwoColumnMain>
+        <div className={'mt-6 leading-7 text-slate-800 text-center max-w-[80%] min-w-[80%] ml-[10%] mr-[10%]'}>
+          <p>名前：こはさん</p>
+          <p>仕事：某SIerのSE (2023/04~)</p>
+          <p>資格：基本情報技術者 (2022/10)</p>
+        </div>
         <TwoColumnSidebar>
           <Contact />
         </TwoColumnSidebar>

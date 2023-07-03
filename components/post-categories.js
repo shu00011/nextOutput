@@ -4,7 +4,7 @@ import { faHashtag } from '@fortawesome/free-solid-svg-icons'
 
 export default function PostCategories({ categories }) {
     return (
-        <div className={'flex items-baseline gap-6 text-slate-700 my-20'}>
+        <div className={'flex items-baseline gap-6 text-slate-700 my-20 max-w-[80%] ml-[10%] mr-[10%]'}>
             <h3 className={'text-base text-slate-700'}>
                 <FontAwesomeIcon icon={ faHashtag } />
                 <span className={'sr-only'}>Categories</span>
