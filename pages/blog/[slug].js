@@ -55,9 +55,7 @@ export default function Post({
                             <ConvertBody contentHTML={ content } />
                         </PostBody>
                     </TwoColumnMain>
-                    <TwoColumnSidebar>
-                        <PostCategories categories={ categories } />
-                    </TwoColumnSidebar>
+                    <PostCategories categories={ categories } />
                 </TwoColumn>
                 <Pagination
                     prevText={prevPost.title}
