@@ -1,11 +1,13 @@
 import Contact from 'components/contact'
 import Container from 'components/container'
 import eyecatch from 'images/icon.png'
+import CLF from 'images/CLF.png'
 import Hero from 'components/hero'
 import Image from 'next/image'
 import Meta from 'components/meta'
 import PostBody from 'components/post-body'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-columns'
+import { images } from '@/next.config'
 
 // Next 13.0.5 より Imageのlayout propsが非推奨に。layout='**' ではなくそのまま ** と設定する。(ここでのresponsive)
 export default function About() {
@@ -34,10 +36,24 @@ export default function About() {
         />
       </figure>
       <TwoColumn>
-        <div className={'mt-6 leading-7 text-slate-800 text-center max-w-[80%] min-w-[80%] ml-[10%] mr-[10%]'}>
-          <p>名前：こはさん</p>
-          <p>仕事：某SIerのSE (2023/04~)</p>
-          <p>資格：基本情報技術者 (2022/10)</p>
+        <div className={'mt-6 leading-7 text-slate-800 max-w-[40%] min-w-[40%] ml-[20%] mr-[20%]'}>
+          <p className={'text-lg font-medium'}>名前</p>
+          <p className={'pl-4 mb-4'}>こはさん</p>
+          <p className={'text-lg font-medium'}>仕事</p>
+          <p className={'pl-4 mb-4'}>某SIerのSE (2023/04~)</p>
+          <p className={'text-lg font-medium'}>資格</p>
+          <p className={'pl-4 mb-2'}>基本情報技術者 (2022/10)</p>
+          <p className={'pl-4 mb-4'}>AWS Certified Cloud Practitioner(CLF-C01) (2023/07)</p>
+          <div style={{position: 'relative', width: '125px', height: '125px'}} className={'flex justify-center ml-[6px]'}>
+            <Image
+              src = { CLF }
+              alt = ''
+              fill
+              style={{objectFit: 'contain'}}
+              priority
+              placeholder = 'blur'
+            />
+          </div>
         </div>
         <TwoColumnSidebar>
           <Contact />
