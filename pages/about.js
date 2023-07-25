@@ -27,7 +27,7 @@ export default function About() {
       />
       <div className={'p-4 max-w-[80%] ml-[10%] mb-12 border border-4 p-4 rounded-2xl border-slate-100'}>
         <div className={'flex justify-center mt-12'}>
-          <figure className={'max-w-[80%] relative w-[150px] h-[150px]'}>
+          <figure className={'max-w-[80%] relative w-[150px] h-[150px] drop-shadow-xl'}>
             <Image
               src = { eyecatch }
               alt = ''
