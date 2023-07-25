@@ -35,13 +35,13 @@ export default function Post({
             <article>
                 <PostHeader title={ title } subtitle='Blog Article' publish={ publish } />
 
-                <figure className={'relative aspect-video max-w-[80%] ml-[10%]'}>
+                <figure className={'relative aspect-video max-w-[80%] ml-[10%] drop-shadow-xl'}>
                     <Image
                         key={eyecatch.url}
                         src={ eyecatch.url }
                         alt=''
                         fill
-                        style={{objectFit: 'cover'}}
+                        style={{objectFit: 'cover', borderRadius: '16px'}}
                         sizes='(min-width: 1152px) 1152px, 100vw'
                         priority
                         plaiceholder='blur'

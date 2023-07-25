@@ -25,40 +25,45 @@ export default function About() {
           title='About'
           subtitle='About shu00011'
       />
-      <figure className={'flex justify-center max-w-[80%] ml-[10%]'}>
-        <Image
-          src = { eyecatch }
-          alt = ''
-          responsive
-          sizes = '(min-width: 96px) 96px, 100vw'
-          priority
-          placeholder = 'blur'
-        />
-      </figure>
-      <TwoColumn>
-        <div className={'mt-6 leading-7 text-slate-800 max-w-[40%] min-w-[40%] ml-[20%] mr-[20%]'}>
-          <p className={'text-lg font-medium'}>名前</p>
-          <p className={'pl-4 mb-4'}>こはさん</p>
-          <p className={'text-lg font-medium'}>仕事</p>
-          <p className={'pl-4 mb-4'}>某SIerのSE (2023/04~)</p>
-          <p className={'text-lg font-medium'}>資格</p>
-          <p className={'pl-4 mb-2'}>基本情報技術者 (2022/10)</p>
-          <p className={'pl-4 mb-4'}>AWS Certified Cloud Practitioner(CLF-C01) (2023/07)</p>
-          <div style={{position: 'relative', width: '125px', height: '125px'}} className={'flex justify-center ml-[6px]'}>
+      <div className={'p-4 max-w-[80%] ml-[10%] mb-12 border border-4 p-4 rounded-2xl border-slate-100'}>
+        <div className={'flex justify-center mt-12'}>
+          <figure className={'max-w-[80%] relative w-[150px] h-[150px]'}>
             <Image
-              src = { CLF }
+              src = { eyecatch }
               alt = ''
               fill
-              style={{objectFit: 'contain'}}
+              sizes = '(min-width: 96px) 96px, 100vw'
               priority
               placeholder = 'blur'
             />
-          </div>
+          </figure>
         </div>
-        <TwoColumnSidebar>
-          <Contact />
-        </TwoColumnSidebar>
-      </TwoColumn>
+        <TwoColumn>
+          <div className={'mt-6 leading-7 text-slate-800 max-w-[80%] min-w-[80%] ml-[10%] mr-[10%]'}>
+            <p className={'text-lg font-medium'}>名前</p>
+            <p className={'pl-4 mb-4'}>こはさん</p>
+            <p className={'text-lg font-medium'}>仕事</p>
+            <p className={'pl-4 mb-4'}>某SIerのSE (2023/04~)</p>
+            <p className={'text-lg font-medium'}>資格</p>
+            <p className={'pl-4 mb-2'}>基本情報技術者 (2022/10)</p>
+            <p className={'pl-4 mb-4'}>AWS Certified Cloud Practitioner(CLF-C01) (2023/07)</p>
+            <div style={{position: 'relative', width: '125px', height: '125px'}} className={'flex justify-center ml-[6px]'}>
+              <Image
+                src = { CLF }
+                alt = ''
+                fill
+                style={{objectFit: 'contain'}}
+                priority
+                placeholder = 'blur'
+              />
+            </div>
+          </div>
+          <TwoColumnSidebar>
+            <Contact />
+          </TwoColumnSidebar>
+        </TwoColumn>
+      </div>
+
     </Container>
   )
 }
