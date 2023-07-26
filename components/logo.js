@@ -4,6 +4,6 @@ import Link from 'next/link'
 
 export default function Logo() {
     return (
-        <Link href="/" className={'text-lg font-medium tracking-widest text-slate-800 ml-[5%]'}>shu00011</Link>
+        <Link href="/" className={'text-lg font-medium tracking-widest text-slate-800'}>shu00011</Link>
     )
 }

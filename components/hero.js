@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import spring from 'images/spring.jpg'
+import spring from 'images/spring.avif'
 
 export default function Hero({ title, subtitle, imageOn = false }) {
     const imageStyle = {
