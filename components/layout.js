@@ -8,7 +8,7 @@ export default function Layout({ children }) {
 
             <main className={'bg-slate-50'}> { children } </main>
 
-            <Footer />
+            <Footer/>
         </>
     )
 }
