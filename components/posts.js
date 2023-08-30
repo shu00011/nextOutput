@@ -5,8 +5,8 @@ export default function Posts({ posts }) {
     return (
         <div className={'grid grid-cols-2 gap-4 mt-4 pb-44 max-w-[80%] ml-[10%] mr-[10%]'}>
             {posts.map(({ title, slug, eyecatch }) => (
-                <article className={'my-2 border border-4 p-4 rounded-2xl border-slate-100'} key={slug}>
-                    <Link href={`/blog/${slug}`}>
+            <Link href={`/blog/${slug}`} key={slug} className={'my-2 border border-4 p-4 rounded-2xl border-slate-100'}>
+                <article>
                         <figure className={'relative aspect-video'}>
                             <Image
                                 src={eyecatch.url}
@@ -19,8 +19,9 @@ export default function Posts({ posts }) {
                             />
                         </figure>
                         <h2 className={'text-base font-normal pt-4'}>{ title }</h2>
-                    </Link>
+
                 </article>
+            </Link>
             ))}
         </div>
     )
