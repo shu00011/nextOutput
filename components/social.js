@@ -25,12 +25,6 @@ export default function Social({onFooter=false}) {
                     <span className='sr-only'>Zenn</span>
                 </a>
             </li>
-            {/* <li>
-                <a href='https://www.instagram.com/shu_0u/' target='_blank' rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon = { faInstagram } />
-                    <span className='sr-only'>Instagram</span>
-                </a>
-            </li> */}
             <li>
                 <a href='https://github.com/shu00011' target='_blank' rel='noopener noreferrer'>
                     <FontAwesomeIcon icon = { faGithub } />
