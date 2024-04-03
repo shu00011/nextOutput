@@ -53,7 +53,7 @@ export default function About() {
             <p className={'pl-4 mb-4'}>基本情報技術者 (2022/10)</p>
             <p className={'pl-4 mb-4'}>AWS Certified Cloud Practitioner(CLF-C01) (2023/07)</p>
             <p className={'pl-4 mb-4'}>AWS Certified Solutions Architect Assosiate(SAA-C03) (2024/02)</p>
-            <p className={'pl-4 mb-4'}>Refistered Scrum Master (2024/01)</p>
+            <p className={'pl-4 mb-4'}>Registered Scrum Master (2024/01)</p>
             <div style={{position: 'relative', width: '180px', height: '180px'}} className={'flex justify-center ml-[6px]'}>
               <Image
                 src = { CLFSAA }
