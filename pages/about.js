@@ -42,13 +42,15 @@ export default function About() {
           <div className={'mt-6 leading-7 text-slate-800 max-w-[80%] min-w-[80%] ml-[10%] mr-[10%]'}>
             <p className={'text-lg font-medium'}>名前</p>
             <p className={'pl-4 mb-4'}>shu00011</p>
-            <p className={'text-lg font-medium'}>仕事</p>
-            <p className={'pl-4 mb-4'}>某SIerのSE (2023/04~)</p>
+            <p className={'text-lg font-medium'}>経歴</p>
+            <p className={'pl-4 mb-4'}>岡山大学工学部情報系学科 2023/03 卒業</p>
+            <p className={'pl-4 mb-4'}>某社SE (2023/04~)</p>
             <ul className={'text-sm'}>
               <li className={'pl-4 mb-4'}>TypeScript(Next.js)を使用したフロントエンド開発 / アジャイル開発 (2023/10)</li>
               <li className={'pl-4 mb-4'}>ChatGPTやGitHub Copilotを用いたコード作成・テストコード作成・リファクタリングの生産性検証 (2023/11-2024/03)</li>
               <li className={'pl-4 mb-4'}>Python(Streamlit)を用いたLLM検証用ChatUI作成(2024/03)</li>
             </ul>
+            <p className={'pl-4 mb-4'}>第一子産休･育休 (2024/04~)</p>
             <p className={'text-lg font-medium'}>資格</p>
             <p className={'pl-4 mb-4'}>基本情報技術者 (2022/10)</p>
             <p className={'pl-4 mb-4'}>AWS Certified Cloud Practitioner(CLF-C01) (2023/07)</p>
